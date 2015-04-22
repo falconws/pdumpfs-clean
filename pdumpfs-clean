@@ -14,7 +14,7 @@
 
 require 'getoptlong'
 require 'date'
-require 'ftools'
+require 'fileutils'
 
 VERS = '$Id$'.sub(/^.*,v ([\d\.]+) .*$/, "\\1")
 DEFAULT = { 'year' => 2,
